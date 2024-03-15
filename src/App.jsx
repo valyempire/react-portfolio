@@ -1,4 +1,6 @@
+import { ThemeProvider } from "styled-components";
 import { useState } from "react";
+import { darkTheme } from "./utils/themes.js";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar.jsx";
@@ -15,26 +17,28 @@ const App = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (
-    <Router>
-      <Navbar />
-      <Body>
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route
-            path="/projects"
-            element={
-              <Projects openModal={openModal} setOpenModal={setOpenModal} />
-            }
-          />
-          <Route path="/education" element={<Education />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Wrapper></Wrapper>
-        <Footer />
-      </Body>
-    </Router>
+    <ThemeProvider theme={darkTheme}>
+      <Router>
+        <Navbar />
+        <Body>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route
+              path="/projects"
+              element={
+                <Projects openModal={openModal} setOpenModal={setOpenModal} />
+              }
+            />
+            <Route path="/education" element={<Education />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Wrapper></Wrapper>
+          <Footer />
+        </Body>
+      </Router>
+    </ThemeProvider>
   );
 };
 
