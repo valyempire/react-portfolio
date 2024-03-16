@@ -1,5 +1,41 @@
+import {
+  FooterContainer,
+  FooterWrapper,
+  Logo,
+  Nav,
+  NavLinkStyled,
+  Copyright,
+} from "./FoterStyles";
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <FooterContainer>
+      <FooterWrapper>
+        <Logo>Valerica Bocanel</Logo>
+        <Nav>
+          <NavLinkStyled to="/about" className="nav-link">
+            About
+          </NavLinkStyled>
+          <NavLinkStyled to="/skills" className="nav-link">
+            Skills
+          </NavLinkStyled>
+          <NavLinkStyled to="/experience" className="nav-link">
+            Experience
+          </NavLinkStyled>
+          <NavLinkStyled to="/projects" className="nav-link">
+            Projects
+          </NavLinkStyled>
+          <NavLinkStyled to="/education" className="nav-link">
+            Education
+          </NavLinkStyled>
+        </Nav>
+
+        <Copyright>
+          &copy; 2024 Valerica Bocanel. All rights reserved.
+        </Copyright>
+      </FooterWrapper>
+    </FooterContainer>
+  );
 };
 
 export default Footer;
