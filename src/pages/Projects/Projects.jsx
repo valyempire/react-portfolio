@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 import {
@@ -10,7 +11,7 @@ import {
   ToggleButton,
   Divider,
 } from "./ProjectsStyles";
-import ProjectCard from "../../components/Cards/ProjectCards";
+import ProjectCards from "../../components/ProjectCards/ProjectCards";
 import { projects } from "../../utils/projects";
 
 const Projects = ({ openModal, setOpenModal }) => {
@@ -102,7 +103,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
-              <ProjectCard
+              <ProjectCards
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
@@ -111,7 +112,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
-              <ProjectCard
+              <ProjectCards
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
