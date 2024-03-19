@@ -55,9 +55,18 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput required placeholder="Your Email" name="from_email" />
-          <ContactInput required placeholder="Your Name" name="from_name" />
-          <ContactInput required placeholder="Subject" name="subject" />
+          <ContactInput
+            type="email"
+            placeholder="Email"
+            name="user_email"
+            required
+          />
+          <ContactInput
+            type="text"
+            placeholder="Full Name"
+            name="user_name"
+            required
+          />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
