@@ -24,12 +24,11 @@ export const Description = styled.div`
 `;
 
 export const Span = styled.span`
-  overflow: hidden;
-  display: -webkit-box;
+  display: block;
   max-width: 100%;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  overflow: hidden;
   text-overflow: ellipsis;
+  transition: all 0.3s ease-in-out;
 `;
 
 export const Card = styled.div`
@@ -62,7 +61,7 @@ export const Card = styled.div`
     overflow: visible;
     -webkit-line-clamp: unset;
   }
-  border: 0.1px solid #2eadff; /* Schimbarea culorii bordurii */
+  border: 0.1px solid #2eadff;
 `;
 
 export const Top = styled.div`

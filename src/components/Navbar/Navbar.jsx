@@ -91,6 +91,14 @@ const Navbar = () => {
             >
               Education
             </MobileMenuLink>
+            <MobileMenuLink
+              to="/contact"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Contact
+            </MobileMenuLink>
             <GitHubButton
               style={{
                 padding: "10px 16px",
