@@ -1,3 +1,5 @@
+import hangman_img from "../images/hangman.png";
+
 export const projects = [
   {
     id: 1,
@@ -67,14 +69,16 @@ export const projects = [
   },
   {
     id: 7,
-    title: "",
-    date: "",
-    description: "",
-    image: "",
-    tags: [""],
-    category: "javascript",
-    github: "",
-    webapp: "",
+    title: "Hangman",
+    date: "20/06/2023",
+    description:
+      "I developed the Hangman project using React and Styled Components, enhancing my frontend development skills. I learned how to structure and manage state in a React application, apply styles with Styled Components, and create interactivity within the app. The project demonstrates a deep understanding of React and how modern technologies can be integrated to create engaging web experiences.",
+    image: hangman_img,
+    tags: ["React", "Styled-Components"],
+    category: "react",
+    github:
+      "https://github.com/valyempire/hangman-typescript-styled-components",
+    webapp: "https://vali-hangman.netlify.app/",
   },
   {
     id: 8,
@@ -127,8 +131,12 @@ export const projects = [
     description: "",
     image: "",
     tags: [""],
-    category: "react",
+    category: "javascript",
     github: "",
     webapp: "",
   },
 ];
+
+export const gitHubTitle = "See the code on my Github profile";
+
+export const liveTitle = "See my project live";

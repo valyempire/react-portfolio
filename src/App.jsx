@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Experience from "./pages/Experience/Experience.jsx";
 import Education from "./pages/Education/Education.jsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
+import ProjectDetailsModal from "./components/ProjectDetailsModal/ProjectDetailsModal.jsx";
 import { Body, Wrapper } from "./AppStyles.js";
 
 const App = () => {
@@ -38,6 +39,12 @@ const App = () => {
             </Routes>
             <Wrapper></Wrapper>
             <Footer />
+            {openModal.state && (
+              <ProjectDetailsModal
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            )}
           </Body>
         </ScrollToTop>
       </Router>
