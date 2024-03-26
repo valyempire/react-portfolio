@@ -2,8 +2,8 @@
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineContent from "@mui/lab/TimelineContent";
-import ExperienceCard from "../../components/Cards/ExperienceCard";
 import { experiences } from "../../utils/experiences";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import {
   Container,
   Wrapper,

@@ -1,0 +1,32 @@
+export const experiences = [
+  {
+    id: 0,
+    img: "",
+    role: "",
+    company: "",
+    date: "",
+    desc: "",
+    skills: [],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "",
+    role: "",
+    company: "",
+    date: "",
+    desc: "",
+    skills: [],
+    doc: "",
+  },
+  {
+    id: 2,
+    img: "",
+    role: "",
+    company: "",
+    date: "",
+    desc: "",
+    skills: [],
+    doc: "",
+  },
+];
