@@ -48,6 +48,7 @@ export const Description = styled.div`
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
+    padding: 15px;
   }
 `;
 
@@ -60,7 +61,4 @@ export const TimelineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
-  @media (max-width: 660px) {
-    align-items: end;
-  }
 `;

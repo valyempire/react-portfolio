@@ -36,7 +36,6 @@ export const Title = styled.div`
   margin-top: -40px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-    margin-top: -35px;
     font-size: 32px;
   }
 `;
@@ -49,6 +48,7 @@ export const Description = styled.div`
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
+    padding: 20px;
   }
 `;
 

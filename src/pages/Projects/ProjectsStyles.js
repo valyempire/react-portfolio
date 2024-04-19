@@ -84,6 +84,11 @@ export const ToggleButton = styled.div`
   &:hover {
     background: ${({ theme }) => theme.primary + 8};
   }
+
+  @media (max-width: 768px) {
+    padding: 6px 4px;
+    font-size: 12px;
+  }
 `;
 
 export const Divider = styled.div`

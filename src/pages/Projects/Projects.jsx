@@ -89,14 +89,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="full-stackact"
               onClick={() => setToggle("full-stack")}
             >
-              Full-Stack (MERN)
+              Full-Stack
             </ToggleButton>
           ) : (
             <ToggleButton
               value="full-stack"
               onClick={() => setToggle("full-stack")}
             >
-              Full-Stack (MERN)
+              Full-Stack
             </ToggleButton>
           )}
         </ToggleButtonGroup>
