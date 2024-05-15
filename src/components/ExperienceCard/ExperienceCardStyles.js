@@ -1,15 +1,11 @@
 import styled from "styled-components";
 
 export const Document = styled.img`
-  display: none;
-  height: 70px;
-  width: fit-content;
-  background-color: #000;
+  height: 80px;
+  width: fit-content
   border-radius: 10px;
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
+  transition: opacity 0.3s ease-in-out;
+  visibility: visible;
 `;
 
 export const Description = styled.div`
@@ -52,10 +48,6 @@ export const Card = styled.div`
     padding: 10px;
     gap: 8px;
     width: 300px;
-  }
-
-  &:hover ${Document} {
-    display: flex;
   }
 
   &:hover ${Span} {

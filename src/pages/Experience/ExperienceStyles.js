@@ -52,13 +52,23 @@ export const Description = styled.div`
   }
 `;
 
+// export const TimelineSection = styled.div`
+//   width: 100%;
+//   max-width: 1000px;
+//   margin-top: 10px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 12px;
+// `;
 export const TimelineSection = styled.div`
   width: 100%;
   max-width: 1000px;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Adăugați această linie */
   justify-content: center;
   gap: 12px;
 `;
