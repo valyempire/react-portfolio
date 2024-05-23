@@ -13,7 +13,7 @@ const Footer = () => {
       <FooterWrapper>
         <Logo>Valerica Bocanel</Logo>
         <Nav>
-          <NavLinkStyled to="/about" className="nav-link">
+          <NavLinkStyled to="/" className="nav-link">
             About
           </NavLinkStyled>
           <NavLinkStyled to="/skills" className="nav-link">
@@ -27,6 +27,9 @@ const Footer = () => {
           </NavLinkStyled>
           <NavLinkStyled to="/education" className="nav-link">
             Education
+          </NavLinkStyled>
+          <NavLinkStyled to="/contact" className="nav-link">
+            Contact
           </NavLinkStyled>
         </Nav>
 
