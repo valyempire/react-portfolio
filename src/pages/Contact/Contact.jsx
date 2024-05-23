@@ -3,7 +3,7 @@ import {
   Container,
   Wrapper,
   Title,
-  Desc,
+  Description,
   ContactForm,
   ContactTitle,
   ContactInput,
@@ -50,9 +50,9 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>
+        <Description>
           Feel free to reach out to me for any questions or opportunities!
-        </Desc>
+        </Description>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput

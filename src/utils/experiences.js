@@ -1,8 +1,8 @@
 import udemy_diploma from "../images/diploma Udemy-ztm_jpg.jpg";
 import intership_diploma from "../images/Recommendation letter Bocanel Valerica.jpg";
-import udemy_logo from "../images/udemy-logo.jpg";
+import udemy_logo from "../images/Udemy-Logo.png";
 import devzone_logo from "../images/devzone-logo.jpg";
-import binarcode_logo from "../images/binarcode-logo.png";
+import binarcode_logo from "../images/binarcode_logo.png";
 
 export const experiences = [
   {

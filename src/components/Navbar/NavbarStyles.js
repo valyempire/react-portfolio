@@ -82,7 +82,7 @@ export const GitHubButton = styled.a`
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-  padding: 0 20px;
+  padding: 0 12px;
   font-weight: 500;
   text-decoration: none;
   font-size: 16px;
@@ -91,8 +91,8 @@ export const GitHubButton = styled.a`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
-  @media screen and (max-width: 768px) {
-    font-size: 14px;
+  @media screen and (max-width: 900px) {
+    display: none;
   }
 `;
 
@@ -103,7 +103,7 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     display: none;
   }
 `;

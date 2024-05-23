@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -61,4 +62,7 @@ export const TimelineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
+  @media (max-width: 960px) {
+    margin-right: 20px;
+  }
 `;

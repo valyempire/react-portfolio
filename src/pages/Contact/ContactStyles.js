@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -39,7 +40,7 @@ export const Title = styled.div`
   }
 `;
 
-export const Desc = styled.div`
+export const Description = styled.div`
   font-size: 18px;
   text-align: center;
   max-width: 600px;
