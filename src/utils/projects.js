@@ -6,6 +6,7 @@ import hangman_img from "../images/hangman.png";
 import game_platform_img from "../images/game-platform.png";
 import mern_recipes_img from "../images/mern-recipes.png";
 import shop_website_img from "../images/shop-website.png";
+import portfolio_img from "../images/Valerica Bocanel Portfolio.png";
 
 export const projects = [
   {
@@ -39,7 +40,7 @@ export const projects = [
     description:
       "From creating the Quiz App project with HTML, CSS, and JavaScript, I learned how to structure web applications using HTML to create the app's structure and CSS to style the user interface. I used JavaScript to manipulate the Document Object Model (DOM) and make the interface dynamic, allowing users to interact with the quiz. I managed the application's state, such as the current questions, user score, and remaining time for each question. I learned to integrate external APIs, such as the Open Trivia Database, to fetch quiz questions from various categories and difficulties. I added interactive functionalities by handling user events, such as clicks and answer selections, and implemented loading animations and progress bars to provide visual feedback to users. This project provided valuable hands-on experience in developing interactive and dynamic web applications, solidifying my knowledge in frontend development.",
     image: quiz_app_javascript_img,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "API"],
     category: "javascript",
     github: "https://github.com/valyempire/quiz-app-javascript",
     webapp: "https://quiz-app-javascript-vali.netlify.app/",
@@ -52,7 +53,7 @@ export const projects = [
     description:
       "This project involved building a weather forecast application. I utilized the OpenWeatherMap API to retrieve real-time weather data and hourly forecasts. The application allows users to input the city name and display the current temperature, weather description, and an hourly forecast for the next 24 hours. For creating the user interface, I utilized HTML and CSS, while JavaScript was used for dynamic functionality. The project helped me understand how to integrate APIs into web applications and work with real-time data to provide users with useful information.",
     image: weather_app_img,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "API"],
     category: "javascript",
     github: "https://github.com/valyempire/weather-app-js",
     webapp: "https://weather-app-js-vali.netlify.app/",
@@ -60,11 +61,18 @@ export const projects = [
   {
     id: 4,
     title: "Game Platform",
-    date: "",
+    date: "25/02/2024",
     description:
       "The Game Platform project is a advanced web application designed to help users explore a variety of video games. This project serves as a practical example to deepen understanding of intermediate React concepts and best practices. This project helped me understand: Filtering and Sorting, Search Functionality, Responsive Design, Reusable Components, State Management, Client-Side Routing, API Integration, and Performance Optimization.",
     image: game_platform_img,
-    tags: ["React", "Typescript", "React Router", "React Query", "Zustand"],
+    tags: [
+      "React",
+      "Typescript",
+      "React Router",
+      "React Query",
+      "Zustand",
+      "API",
+    ],
     category: "react",
     github: "https://github.com/valyempire/game-platform-react",
     webapp: "https://game-platform-vali.netlify.app/",
@@ -86,7 +94,7 @@ export const projects = [
   {
     id: 6,
     title: "Shopping Website",
-    date: "",
+    date: "26/09/2023",
     description:
       "This project has been a personal challenge aimed at creating a website with a shopping website that provides users with the ability to access detailed information about each product, allowing them to add it to their wishlist or place it in the shopping cart. Through the completion of this project, I have enhanced my skills in React Router, pagination, constructing an image carousel, product sorting, and implementing search functionality within the page.",
     image: shop_website_img,
@@ -94,6 +102,18 @@ export const projects = [
     category: "react",
     github: "https://github.com/valyempire/shoping-cart-react-typescript",
     webapp: "https://shopping-website-vali.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Portfolio",
+    date: "27/05/2024",
+    description:
+      "This project serves as my personal portfolio, showcasing my personal information and various projects. It was developed using React and Styled Components. Through the process of building this portfolio, I have gained a deeper understanding of how to organize components effectively and manage data proficiently.",
+    image: portfolio_img,
+    tags: ["React", "Styled-Components"],
+    category: "react",
+    github: "https://github.com/valyempire/react-portfolio",
+    webapp: "https://portfolio-valerica-bocanel.netlify.app/",
   },
   // {
   //   id: 7,

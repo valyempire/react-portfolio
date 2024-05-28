@@ -115,6 +115,15 @@ export const Skills = styled.div`
   margin-top: -10px;
 `;
 
+export const CourseList = styled.ul`
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
+    margin-bottom: 4px;
+  }
+`;
+
 export const ItemWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;

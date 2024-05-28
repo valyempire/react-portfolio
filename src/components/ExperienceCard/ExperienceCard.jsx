@@ -11,6 +11,7 @@ import {
   Span,
   Skill,
   Skills,
+  CourseList,
   ItemWrapper,
   Document,
 } from "./ExperienceCardStyles";
@@ -28,6 +29,17 @@ const ExperienceCard = ({ experience }) => {
       </Top>
       <Description>
         {experience?.desc && <Span>{experience?.desc}</Span>}
+        {experience?.courses && (
+          <div>
+            <br />
+            <Span>Courses studied:</Span>
+            <CourseList>
+              {experience.courses.map((course, index) => (
+                <li key={index}>{course}</li>
+              ))}
+            </CourseList>
+          </div>
+        )}
         {experience?.skills && (
           <>
             <br />
