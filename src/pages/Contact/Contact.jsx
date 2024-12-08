@@ -25,10 +25,10 @@ const Contact = () => {
       // Use emailjs to send the form data as an email
       emailjs
         .sendForm(
-          "service_sobiku4", // YOUR_SERVICE_ID
-          "template_xr0evz9", // YOUR_TEMPLATE_ID
+          "service_8vwcver",
+          "template_rpqppfh",
           form.current,
-          "ThmIOLZE6oBtJ2z6C" // YOUR_PUBLIC_KEY
+          "R-0F2SIpRrg6vcwck"
         )
         .then(
           (result) => {
